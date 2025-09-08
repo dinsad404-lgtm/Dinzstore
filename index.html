@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DinzStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo DinzStore" class="logo">
+    <h1>DinzStore</h1>
+    <p>Katalog produk & harga terbaru</p>
+  </header>
+
+  <main>
+    <section class="kontrol">
+      <input id="search" type="search" placeholder="Cari produk..." />
+      <button id="refresh">Muat ulang data</button>
+    </section>
+
+    <section class="produk">
+      <h2>Daftar Produk</h2>
+      <div id="produk-list" class="grid"></div>
+    </section>
+
+    <section class="kontak">
+      <h2>Butuh bantuan?</h2>
+      <a href="https://wa.me/6283895704563" target="_blank" class="btn-wa">Chat WhatsApp 6283895704563</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DinzStore.</p>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
